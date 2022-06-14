@@ -8,6 +8,20 @@
     <style>
         /* 
         color: Thay đổi màu chữ
+        background-color: Thay đổi màu nền
+        text-decoration: underline; -> Gạch chân
+        font-style: italic; ->chữ in nghiêng
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 5px; ->thay đỏi khoảng cách giữa các ký tự
+        border-radius: Bo tròn góc
+        border:
+        border-style:
+        border-width:
+        border-color:
+        width:
+        height:
+        margin:
+        padding:
         */
         body{
             background-color: tomato;
@@ -16,6 +30,10 @@
         h1{
             color: white;
             background-color: crimson;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 20px;
+            margin-left: 30%;
         }
         h2{
             background-color: #dedb20;
@@ -28,6 +46,15 @@
         .italic{
             font-style: italic;
         }
+        img{
+            border-radius: 50px;
+            border: 5px dashed green;
+            margin-left: 30%;
+        }
+        table,th,td{
+            border: 5px dotted darkblue;
+            border-collapse: collapse;
+        }
     </style>
 </head>
 <body>
@@ -35,9 +62,10 @@
     <h1>Vu Minh Hung's Portfolio</h1>
     <!-- thẻ img giúp ta hiển thị ảnh -->
     <img src="./vmh.jpg" alt="Vu Minh Hung">
+    <br>
 
     <!-- video: giúp hiển thị video -->
-    <video src="./y2mate.com - Online Class 1 minute Creative Self Introduction video_1080pFHR.mp4"></video>
+    <video src="./y2mate.com - Online Class 1 minute Creative Self Introduction video_1080pFHR.mp4" controls height="400px" width="auto"></video>
 
     <!-- Thẻ hr để tạo đoạn ngăn cách giữa các thành phần trong văn bản -->
     <hr>  
@@ -114,5 +142,25 @@
     <h2>Contact</h2>
 
     <a href="https://learn.codegym.vn/members/ubw2204r1004/">Buy me a coffee.</a>
+
+    <h2>My Projects</h2>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Project Name</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Portfolio Page</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Twitter Page</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Cat ID Registration Page</td>
+        </tr>
+    </table>
 </body>
 </html>
