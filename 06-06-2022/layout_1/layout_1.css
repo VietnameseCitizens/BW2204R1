@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*html5 semantics tags */
+article, aside, figure, footer, header, hgroup, menu, nav, section 
+{ display: block; }
+
+/* =page level container */
+#pageContainer {
+    margin: 0px auto 0px auto;
+	width: 960px;
+    background: #2D2AFF;
+}
+
+#pageHeader {
+    margin:0px auto 0px auto;
+    width:960px;
+    background: #3C82FF;
+    height:82px;
+    position:relative;
+}
+#pageSection{
+    background: #3C82FF;
+}
+#contentContainer {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    min-height: 500px;
+}
+
+#pageFooter {
+    margin: 0px auto;
+    padding-bottom: 20px;
+	width: 960px;
+	position: relative;
+}
+
+/* Clear Floated Elements */
+.clearfix:before, .clearfix:after {content: "\0020"; 
+display: block; height: 0; visibility: hidden;}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
