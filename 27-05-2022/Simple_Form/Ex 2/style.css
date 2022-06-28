@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    width: 960px;
+    height: 630px;
+    background-color: #FFFCAD;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color: #1B49F9;
+    background-color: #D5FCD7;
+}
+.vertical{
+    vertical-align: top;
+}

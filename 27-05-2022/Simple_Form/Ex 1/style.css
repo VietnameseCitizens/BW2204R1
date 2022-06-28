@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', sans-serif;
+}
+form{
+    width: 960px;
+    height: 426px;
+    border: 30px solid #00957880;
+    border-top-width: 19px;
+    border-bottom-width: 19px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+table th{
+    background-color: #FF4D1C;
+    width: 100%;
+    margin: auto;
+    height: 46px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+}
+label{
+    color: #3D55BA;
+    font-size: 18px;
+}
+.right{
+    text-align: right;
+    padding: 5px;
+}
+.vertical{
+    vertical-align: top;
+}
+.color{
+    color: #FF4D1C;
+}
+input{
+    box-shadow: 2px 2px #606060 inset;
+    border: 1px solid rgb(153, 146, 146);
+    outline: none;
+    padding: 10px;
+}
+button{
+    background-color: #DCD9D2;
+    border: none;
+    box-shadow: 2px 2px #606060;
+}
