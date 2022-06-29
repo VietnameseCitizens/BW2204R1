@@ -1,0 +1,18 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+form{
+    margin: 10px;
+}
+form div{
+    margin-bottom: 10px;
+}
+.align{
+    width: 100%;
+    text-align: center;
+}
+.not-align{
+    text-align: left;
+}
